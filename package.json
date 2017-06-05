@@ -1,0 +1,20 @@
+{
+  "name": "Node-Relay",
+  "description": "Node-Relay- info exchange",
+  "version": "0.1.0",
+  "keywords": [
+    "prithvi,websocket,socketio,nodejs"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:7mysticshadow/InfyNode.git"
+},
+  "author": "7mysticshadow",
+    "dependencies": {
+        "socket.io": "~1.0.6",
+        "node-static"   : "~0.7.7"
+    },
+    "engines": {
+        "node": "0.10.x"
+    }
+}
