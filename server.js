@@ -1,6 +1,6 @@
 "use strict";
-var static = require('node-static');
-var file = new static.Server('./static');
+var staticsr = require('node-static');
+var file = new staticsr.Server('./static');
 
 var server = require('http').createServer(function(request, response) {
     request.addListener('end', function() {
